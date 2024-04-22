@@ -7,11 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import './about.css';
-import creact from '../images/creact.png';
-import cjavascript from '../images/cjavascript.png';
-import cdigital from '../images/cdigital.png';
-import cmongodb from '../images/cmongodb.png';
-import cgoogle from '../images/cgoogle.png';
+import cFullStackSite from '../images/fullStackSite.png';
+import cjavascript from '../images/freeCodeCampCertification.png';
+import cFullStacks from '../images/fullStack.png';
+import cHooks from "../images/Hooks.png";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const Certification = () => {
@@ -20,7 +19,7 @@ const Certification = () => {
   const handleClick = (e) => {
     setimage(e.target.src);
     setModel(true);
-  };
+  }
 
   useEffect(() => {
     const modelclose = (event) => {
@@ -66,12 +65,12 @@ const Certification = () => {
         }}
       >
 
-        <SwiperSlide><img src={creact} name="creact" onClick={handleClick} /><span>ReactJs</span></SwiperSlide>
+        <SwiperSlide><img src={cFullStackSite} name="creact" onClick={handleClick} /><span>ReactJs</span></SwiperSlide>
         <SwiperSlide><img src={cjavascript} name="cjavascript" onClick={handleClick} /><span>JavaScript</span></SwiperSlide>
-        <SwiperSlide><img src={cmongodb} onClick={handleClick} /><span>MongoDb</span></SwiperSlide>
-        <SwiperSlide><img src={cdigital} onClick={handleClick} /><span>Digital Marketing</span></SwiperSlide>
-        <SwiperSlide><img src={cgoogle} onClick={handleClick} /><span>Google Analytics</span></SwiperSlide>
-      </Swiper>
+        <SwiperSlide><img src={cHooks} onClick={handleClick} /><span>Hooks</span></SwiperSlide>
+        <SwiperSlide><img src={cFullStacks} onClick={handleClick} /><span>Full Stack </span></SwiperSlide>
+        {/* <SwiperSlide><img src={cgoogle} onClick={handleClick} /><span>Google Analytics</span></SwiperSlide> */}
+      </Swiper>s
       {
         model && <div className="model">
 

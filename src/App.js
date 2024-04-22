@@ -19,7 +19,7 @@ function App() {
       <Portfolio />
       <Experience />
       <Certification />
-      <Achievements />
+      {/* <Achievements /> */}
       <Contact />
       <SocialLinks />
     </>
