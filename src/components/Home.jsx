@@ -1,3 +1,4 @@
+import React from 'react';
 import "./about.css";
 import stiger2 from '../images/stiger2.png';
 

@@ -22,7 +22,7 @@ const SocialLinks = () => {
           Call Now <FaPhone size={30} />
         </>
       ),
-      href: "tel:8252126442",
+      href: "tel:+917011153292",
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "cv.pdf",
+      href: "gagan_gupta_cv.pdf",
       style: "rounded-br-md",
       download: false,
     },
