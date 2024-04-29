@@ -1,3 +1,4 @@
+import React from 'react';
 import "./about.css";
 import achievement from '../images/achievement.png';
 import achievement1 from '../images/achievement1.JPG';
